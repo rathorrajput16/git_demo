@@ -1,12 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int a = 5; // First number
-    int b = 10; // Second number
-    int sum = a + b; // Calculate sum
+    // Declare variables
+    int num1, num2, sum;
 
-    // Print the result
-    printf("The sum of %d and %d is %d\n", a, b, sum);
+    // Prompt user for input
+    printf("Enter first number: ");
+    scanf("%d", &num1);
+    
+    printf("Enter second number: ");
+    scanf("%d", &num2);
+    
+    // Calculate sum
+    sum = num1 + num2;
+
+    // Display the result
+    printf("The sum of %d and %d is %d\n", num1, num2, sum);
 
     return 0;
 }
